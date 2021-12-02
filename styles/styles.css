@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Fredoka+One&family=Roboto:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Fredoka One', cursive;
+    background-color: #A8ECE7 ;
+ }
+ .navbar {
+     background-color: #F4BEEE  ;
+     color: #D47AE8 ;
+ }
+
+ .navbar-menu {
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     list-style: none;
+ }
+ .navbar-item {
+     font-size: 20px;
+     padding: 10px;
+     text-transform: uppercase;
+ }
+
+ .navbar-item img {
+    height: 30px;
+ }
+
+ .navbar-link {
+     text-decoration: none;
+     color: inherit ;
+ }
+
+ .navbar-link:hover {
+     color: #FDFF8F ;
+ }  
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    letter-spacing: 4px;
+    margin: 30px;    
+}
+.hero-title {
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #FFAB4C;
+}
+.hero-title span {
+    color: #94DAFF;
+    
+}
+.hero-caption {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #9C19E0;
+}
+
+.hero img {
+    width: 60%;
+    margin-bottom: 10px;
+}
+
+.hero img:hover {
+    filter: invert(100%);
+}
+.characters {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.characters-item {
+    margin: 10px;
+    height: 300px;
+    width: 180px;
+    padding: 4px;
+}
+
+.characters-title {
+    background-color: #F4BEEE;
+    border-radius: 10px;
+    color: #D47AE8;
+    padding: 3px;
+}
+.characters-caption {
+    font-size: 16px;
+    margin: 10px 0px;  
+}
+
+.characters-item img {
+    object-fit: contain;
+    width: 70%;
+    height: 70%;
+    filter: drop-shadow(30px 10px 4px #4444dd);
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.contact a {
+    text-decoration: none;
+    color: #D47AE8;
+}
+
+.contact a::before {
+    content: "📧";
+}
+
+.contact a:hover {
+    color: rgb(30, 255, 0);
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.6);
+
+}
+.contact span {
+    color: #b80e93);
+}
+/* FOOTER*/
